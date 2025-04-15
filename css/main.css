@@ -67,7 +67,7 @@ button {
 	z-index: 10;
 	background-color: white;
 	overflow: hidden;
-	background-image: url(/salesapp/norm/_mexico/groupm/mediacom/fuzetea2/img/svg/preloader.svg);
+	background-image: url(img/svg/preloader.svg);
 	-webkit-background-size: auto 110%;
 	background-size: auto 115%;
 	background-position: center;
@@ -91,7 +91,7 @@ main#main-wrapper {
 	max-height: 812px;
 	margin: 0 auto;
 	width: 100%;
-	background-image: url(/salesapp/norm/_mexico/groupm/mediacom/fuzetea2/img/svg/leaf-top-right.svg), url(/salesapp/norm/_mexico/groupm/mediacom/fuzetea2/img/svg/leaf-bottom-left.svg);
+	background-image: url(img/svg/leaf-top-right.svg), url(img/svg/leaf-bottom-left.svg);
 	background-repeat: no-repeat;
 	background-position: top right, bottom left;
 	background-size: 80% auto
@@ -216,7 +216,7 @@ button#skip-instructions:hover {
 	color: #fff;
 	display: block;
 	margin: 20px auto;
-	background-image: url(/salesapp/norm/_mexico/groupm/mediacom/fuzetea2/img/svg/large-button.svg);
+	background-image: url(img/svg/large-button.svg);
 	background-repeat: no-repeat;
 	width: 80%;
 	height: 70px;
@@ -232,7 +232,7 @@ button#skip-instructions:hover {
 }
 .large-btn.gray-btn {
 	color: #000;
-	background-image: url(/salesapp/norm/_mexico/groupm/mediacom/fuzetea2/img/svg/large-button-disabled.svg);
+	background-image: url(img/svg/large-button-disabled.svg);
 	
 }
 /*
@@ -423,7 +423,7 @@ button#close-ranking {
 
 #ranking-list h3 {
 	font-size: 2em;
-	background-image: url(/salesapp/norm/_mexico/groupm/mediacom/fuzetea2/img/svg/borders.svg);
+	background-image: url(img/svg/borders.svg);
 	background-size: 100% auto;
 	background-color: white;
 	background-position: top center;
@@ -445,7 +445,7 @@ button#close-ranking {
 	display: flex;
 	align-items: center;
 	border-top: 1px solid rgba(0, 0, 0, 0.25);
-	background-image: url(/salesapp/norm/_mexico/groupm/mediacom/fuzetea2/img/svg/star.svg);
+	background-image: url(img/svg/star.svg);
 	background-repeat: no-repeat;
 	background-position: calc(100% - 10px) center;
 	height: 50px;
@@ -524,7 +524,7 @@ figure#ranking-image {
 	height: 160px;
 	width: 100%;
 	margin-bottom: 100px;
-	background-image: url(/salesapp/norm/_mexico/groupm/mediacom/fuzetea2/img/svg/borders.svg);
+	background-image: url(img/svg/borders.svg);
 	background-position: bottom;
 	background-repeat: no-repeat;
 	background-size: 100% auto;
@@ -682,4 +682,8 @@ a.large-btn {
 .play-txt {
 	width: 35%;
 	font-size: 0.7em;
+}
+
+.juega, .cm, .jdn {
+  color: #d22526 !important;
 }

@@ -35,13 +35,13 @@ var Game = {
     },
     setSounds: function() {
         this.sounds["bonus"] = new Audio();
-        this.sounds["bonus"].src = "/salesapp/norm/_mexico/groupm/mediacom/fuzetea/mp3/bonus.mp3";
+        this.sounds["bonus"].src = "mp3/bonus.mp3";
         this.sounds["die"] = new Audio();
-        this.sounds["die"].src = "/salesapp/norm/_mexico/groupm/mediacom/fuzetea/mp3/die.mp3";
+        this.sounds["die"].src = "mp3/die.mp3";
         this.sounds["down"] = new Audio();
-        this.sounds["down"].src = "/salesapp/norm/_mexico/groupm/mediacom/fuzetea/mp3/down.mp3";
+        this.sounds["down"].src = "mp3/down.mp3";
         this.sounds["jump"] = new Audio();
-        this.sounds["jump"].src = "/salesapp/norm/_mexico/groupm/mediacom/fuzetea/mp3/jump.mp3";
+        this.sounds["jump"].src = "mp3/jump.mp3";
     },
     clock: function() {
         var score = 14;
@@ -97,7 +97,7 @@ var Game = {
         }];
         this.loader = new createjs.LoadQueue(false);
         this.loader.addEventListener("complete", this.handleComplete.bind(this));
-        this.loader.loadManifest(manifest, true, "/salesapp/norm/_mexico/groupm/mediacom/fuzetea2/img/game/");
+        this.loader.loadManifest(manifest, true, "img/game/");
     },
     setSize: function() {
         this.width = 550;
